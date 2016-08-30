@@ -9,10 +9,12 @@ header #menu{width: 100%;display: block;background-color: #333333; text-align: r
 header #menu nav ul li{position: relative; display: inline-block;text-align: center; text-transform: uppercase;font-size: 14px;color:white; padding-right: 37px; padding-top: 16px; padding-bottom: 24px;}
 header #menu nav ul li a{color: white}
 header #menu nav ul li a:hover{text-decoration: none; color: #00b5b8}
+header #menu nav ul li:first-child {float: left; padding: 10px 0px 0px 0px}
 
 
 /*footer*/
 footer #footer{
+    display: block;
     background-color: #333333;
     text-align: left;
     height: 50px; 
@@ -21,10 +23,10 @@ footer #footer{
     left: 0;
     bottom: 0; 
 }
-footer #footer nav ul li{position: relative; display: inline-block;text-align: center; text-transform: uppercase;font-size: 14px;color:white; padding-right: 37px; padding-top: 16px;}
+footer #footer nav ul li{position: relative; display: inline-block;text-align: center; font-size: 14px;color:white; padding-right: 37px; padding-top: 16px;}
 footer #footer nav ul li a{color: white}
 footer #footer nav ul li a:hover{text-decoration: none; color: #00b5b8}
-footer #footer nav ul{margin-bottom: 0px;}
+footer #footer nav ul li:last-child {float: right;}
 
 .journeybanner{
     width: 100%;
@@ -48,7 +50,7 @@ footer #footer nav ul{margin-bottom: 0px;}
     text-align: center;
     width: 100%;
     padding-top: 20px;
-    color: #00b5b8
+    color: #00b5b8;
 }
 
 body span.glyphicon.glyphicon-chevron-down {
