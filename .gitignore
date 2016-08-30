@@ -1,0 +1,8 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.bin
+.obj
+.dropbox
+desktop.ini
