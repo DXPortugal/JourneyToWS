@@ -1,0 +1,66 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefdee;
+    height: 100%;
+}
+
+/*menu*/
+header #menu{width: 100%;display: block;background-color: #333333; text-align: right; height: 50px;}
+header #menu nav ul li{position: relative; display: inline-block;text-align: center; text-transform: uppercase;font-size: 14px;color:white; padding-right: 37px; padding-top: 16px; padding-bottom: 24px;}
+header #menu nav ul li a{color: white}
+header #menu nav ul li a:hover{text-decoration: none; color: #00b5b8}
+
+
+/*footer*/
+footer #footer{
+    background-color: #333333;
+    text-align: left;
+    height: 50px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+footer #footer nav ul li{position: relative; display: inline-block;text-align: center; text-transform: uppercase;font-size: 14px;color:white; padding-right: 37px; padding-top: 16px;}
+footer #footer nav ul li a{color: white}
+footer #footer nav ul li a:hover{text-decoration: none; color: #00b5b8}
+footer #footer nav ul{margin-bottom: 0px;}
+
+.journeybanner{
+    width: 100%;
+    padding: 0 !important;
+}
+
+.title{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-body{
+    margin: 0% 15% 0% 15%
+}
+
+.chevron{
+    font-size: 3em !important; 
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    color: #00b5b8
+}
+
+body span.glyphicon.glyphicon-chevron-down {
+    font-size: 30px;
+    text-align: center;
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 100px;    /* height of footer */
+}
