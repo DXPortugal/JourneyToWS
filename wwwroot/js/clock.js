@@ -37,5 +37,14 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse('November 8 2016 09:55:00 GMT'));
+var event = document.getElementById("event");
+
+if(Date.now > Date.parse("September 18 2016 23:59:59")){
+    event.innerHTML = "Countdown to Web Summit";
+    var deadline = new Date(Date.parse('November 8 2016 09:55:00 GMT'));
+}else{
+    event.innerHTML = "Registrations End in:";
+    var deadline = new Date(Date.parse('September 18 2016 23:59:59'));
+}
+
 initializeClock('clockdiv', deadline);
