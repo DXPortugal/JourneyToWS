@@ -82,3 +82,43 @@ body span.glyphicon.glyphicon-chevron-down {
 .align-right{
     text-align: right;
 }
+
+
+/* CLOCK */
+
+#clockdiv{
+    width: 100%;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    width: 100%;
+    border-radius: 3px;
+    background: #009396;
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.days, .hours, .minutes{
+    font-weight: 400;
+}
+
+.smalltext{
+    color: #333;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}

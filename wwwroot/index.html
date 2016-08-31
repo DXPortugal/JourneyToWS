@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <meta charset="UTF-8" />
+
 </head>
 
 <body>
@@ -34,6 +35,28 @@
         <i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
 
         <div class="container" id="body">
+
+            <div class="row">
+                <h3 class="title">Countdown to Registration End</h3>
+                <div id="clockdiv" style="text-align: center">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -101,5 +124,9 @@
     </div>
 
 </body>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/clock.js"></script>
 
 </html>
