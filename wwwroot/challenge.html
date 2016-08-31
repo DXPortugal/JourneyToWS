@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
 </head>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top navbarColor">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -24,10 +24,11 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbarLink">
-                <li><a href="challenge.html">Startup Challenge</a></li>
-                <li><a href="masterclasses.html">Online Masterclasses</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="navbarLink" href="index.html">Home</a></li>
+                <li><a class="navbarLink" href="challenge.html">Startup Challenge</a></li>
+                <li><a class="navbarLink" href="masterclasses.html">Online Masterclasses</a></li>
+                <li><a class="navbarLink" href="faq.html">FAQ</a></li>
             </ul>
         </div>
     </div>
@@ -160,26 +161,28 @@
         </div>
 
 
-        <footer>
-            <div id="footer">
-                <nav>
-                    <ul>
-                        <li>&copy 2016 Microsoft</li>
-
-                        <li><a href="mailto:ativarportugal@microsoft.com?subject=[Suporte]">Contact us</a></li>
-                        <li><a href="http://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx" target="_blank">Terms of Use</a></li>
-                        <li><a href="http://www.microsoft.com/privacystatement/pt-pt/core/default.aspx" target="_blank">Privacy & Cookies</a></li>
-                        <li><a href="http://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx" target="_blank">Trademarks</a></li>
-                        <li>
-                            <a href="//microsoft.pt/" target="_blank"><img alt="Microsoft" src="/imgs/logo-microsoft.png"></a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="navbar navbar-inverse navbar- navbarColor" id="footer">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header navbar-right">
+                    <a href="//microsoft.pt/"><img id="microsoft" alt="Microsoft" src="/imgs/logo-microsoft.png"></a>
+                </div>
+                <p class="navbar-text navbar-left" id="copy">&copy 2016 Microsoft</p>
+                <p class="navbar-text navbar-left"><a class="footerLink" href="mailto:ativarportugal@microsoft.com?subject=[Suporte]">Contact us</a></p>
+                <p class="navbar-text navbar-left"><a class="footerLink" href="http://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx">Terms of Use</a></p>
+                <p class="navbar-text navbar-left footerLink"><a class="footerLink" href="http://www.microsoft.com/privacystatement/pt-pt/core/default.aspx">Privacy & Cookies</a></p>
+                <p class="navbar-text navbar-left"><a class="footerLink" href="http://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx">Trademarks</a></p>
             </div>
-        </footer>
+        </nav>
 
     </div>
 
 </body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/clock.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 
 </html>
