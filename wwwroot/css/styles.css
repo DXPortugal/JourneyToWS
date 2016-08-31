@@ -55,6 +55,11 @@ body{
 }
 
 /*Main page body*/
+hr {
+    background-color: #333;
+    border-color: #333;
+}
+
 .title{
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
@@ -68,6 +73,14 @@ body{
     font-size: 26px;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.subsubtitle{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -15px;
     padding-bottom: 8px;
 }
 
@@ -117,6 +130,18 @@ body span.glyphicon.glyphicon-chevron-down {
     width: 100%;
 }
 
+.left-button-pad{
+    margin-right: 5px;
+}
+
+.right-button-pad{
+    margin-left: 5px;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
 
 /* CLOCK */
 
@@ -173,4 +198,38 @@ body span.glyphicon.glyphicon-chevron-down {
 .sessionDate {
     font-size: 16px;
     font-weight: 500;
+}
+
+/*COLORING*/
+
+.blueTitle{
+    color: #00B3B6;
+}
+
+.pinkTitle{
+    color: #EB3268;
+}
+
+.purpleTitle{
+    color: #823C6D;    
+}
+
+.bluebg{
+    background-color: #00B3B6; 
+}
+
+.pinkbg{
+    background-color: #EB3268; 
+}
+
+.purplebg{
+    background-color: #823C6D;     
+}
+
+.whiteText{
+    color: #fefdee;
+}
+
+.padding40{
+    padding-bottom: 40px; 
 }
