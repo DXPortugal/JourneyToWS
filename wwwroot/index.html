@@ -37,7 +37,7 @@
 </nav>
 
 <body>
-    <div id="holder">
+    <div id="container-fluid">
         <header>
             <div class="container-fluid">
                 <div class="row">
@@ -48,27 +48,28 @@
 
         <i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
 
-        <div class="container" id="body">
-
+        <div class="container-fluid" id="body">
             <div class="row">
-                <h3 class="title"><span id="event"></span></h3>
-                <h5 class="subsubtitle"><a href="challenge.html"><span id="eventSub">No more! Register Here!</span></a></h5>
-                <div id="clockdiv" style="text-align: center">
-                    <div>
-                        <span class="days"></span>
-                        <div class="smalltext">Days</div>
-                    </div>
-                    <div>
-                        <span class="hours"></span>
-                        <div class="smalltext">Hours</div>
-                    </div>
-                    <div>
-                        <span class="minutes"></span>
-                        <div class="smalltext">Minutes</div>
-                    </div>
-                    <div>
-                        <span class="seconds"></span>
-                        <div class="smalltext">Seconds</div>
+                <div class="container">
+                    <h3 class="title"><span id="event"></span></h3>
+                    <h5 class="subsubtitle"><a href="challenge.html"><span id="eventSub">No more! Register Here!</span></a></h5>
+                    <div id="clockdiv" style="text-align: center">
+                        <div>
+                            <span class="days"></span>
+                            <div class="smalltext">Days</div>
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="smalltext">Hours</div>
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="smalltext">Minutes</div>
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seconds</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,46 +79,61 @@
             <i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
 
             <div class="row paddingbottom">
-                <div class="col-md-10 col-md-offset-1">
-                    <h3 class="title">The Program</h3>
-                    <p>
-                        <b>Journey to the Web Summit</b> is a Microsoft Program designed to support startups in making the
-                        most of Websummit as well as showcase the top European Startups. The Program comprises two initiatives:
-                    </p>
+                <div class="container">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3 class="title">The Program</h3>
+                        <p>
+                            <b>Journey to the Web Summit</b> is a Microsoft Program designed to support startups in making
+                            the most of Websummit as well as showcase the top European Startups. The Program comprises two
+                            initiatives:
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row">
-
-                <a href="challenge.html">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-6">
-                        <div class="col-md-9 col-md-offset-3 bluebg whiteText align-center landingBox">
-                            <img class="paddingtop" src="imgs/startupcha.png" />
-                            <h3>Startup Challenge</h3>
-                            <p>Challenge to select the top European startups to be showcased at the Microsoft booth @ Web Summit</p>
-                        </div>
+                        <a href="challenge.html">
+                            <div class="col-md-9 col-md-offset-3 bluebg whiteText align-center landingBox">
+                                <img class="paddingtop" src="imgs/startupcha.png" />
+                                <p class="boxTitle">Startup Challenge</p>
+                                <p class="boxText">Challenge to select the top European startups to be showcased at the Microsoft booth @ Web
+                                    Summit
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                </a>
 
-                <a href="masterclasses.html">
-                    <div class="col-md-6">
-                        <div class="col-md-9 purplebg whiteText align-center landingBox">
-                            <img class="paddingtop" src="imgs/MC.png">
-                            <h3>Online Masterclasses</h3>
-                            <p>Business and Technical sessions to support startups in getting ready for and making the most
-                                out of Websummit</p>
-                        </div>
+                    <div class="col-md-6 boxHeight">
+                        <a href="masterclasses.html">
+                            <div class="col-md-9 purplebg whiteText align-center landingBox">
+                                <img class="paddingtop" src="imgs/MC.png">
+                                <p class="boxTitle">Online Masterclasses</p>
+                                <p class="boxText">Business and Technical sessions to support startups in getting ready for and making the most
+                                    out of Websummit</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
 
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h3 class="title">Questions? We’re here to help!</h3>
-                    <p>
-                        Drop us an e-mail to thejourney@microsoft.com if you have any questions. We’ll get back to you within 24 business hours!
-                    </p>
+            <br> <br>
+
+            <div class="row paddingtop paddingbottom offwhitebg">
+                <div class="container">
+                    <div class="col-md-6 col-md-offset-2">
+                        <h3 class="footerTitle">Questions? We’re here to help!</h3>
+                        <p>
+                            Drop us an e-mail to thejourney@microsoft.com if you have any questions. We’ll get back to you within 24 business hours!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row text-center">
+                            <a href="mailto:thejourney@microsoft.com?subject=[Journey to the Web Summit]"><img alt="Contact Us" id="contact" src="imgs/mail.png"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

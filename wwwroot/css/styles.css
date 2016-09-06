@@ -36,6 +36,19 @@ body{
     margin-bottom: 0px;
 }
 
+#contact{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.footerTitle{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #copy{
     color:white !important;
 }
@@ -99,6 +112,18 @@ hr {
     padding-bottom: 10px;
 }
 
+.boxTitle{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 7px; 
+}
+
+.boxText{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
 .text-body{
     margin: 0% 15% 0% 15%
 }
@@ -119,10 +144,6 @@ body span.glyphicon.glyphicon-chevron-down {
 #holder{
     min-height: 100%;
     position:relative;
-}
-
-#body{
-    padding-bottom: 50px;    /* height of footer */
 }
 
 .align-left{
@@ -156,13 +177,61 @@ body span.glyphicon.glyphicon-chevron-down {
 
 /* CLOCK */
 
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) {
+    #clockdiv{
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .smalltext{
+        color: #333;
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
 #clockdiv{
-    width: 100%;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 60px;
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .smalltext{
+        color: #333;
+        padding-top: 5px;
+        font-size: 18px;
+        font-weight: 350;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    #clockdiv{
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .smalltext{
+        color: #333;
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: 300;
+    }
 }
 
 #clockdiv > div{
@@ -186,13 +255,6 @@ body span.glyphicon.glyphicon-chevron-down {
 }
 
 .days, .hours, .minutes{
-    font-weight: 400;
-}
-
-.smalltext{
-    color: #333;
-    padding-top: 5px;
-    font-size: 20px;
     font-weight: 400;
 }
 
@@ -237,6 +299,10 @@ body span.glyphicon.glyphicon-chevron-down {
     background-color: #823C6D;     
 }
 
+.offwhitebg{
+    background-color: #d9d9d9;
+}
+
 .whiteText{
     color: #fefdee;
 }
@@ -251,4 +317,4 @@ body span.glyphicon.glyphicon-chevron-down {
 
 .landingBox{
     border-radius: 4px;
-}
+    }
