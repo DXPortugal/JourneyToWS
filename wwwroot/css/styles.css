@@ -226,7 +226,7 @@ hr {
 .masterMonthBlue{
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     margin-top: 0px;
     text-align: center;
     color: #00B3B6;
@@ -251,7 +251,7 @@ hr {
 .masterMonthPink{
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     margin-top: 0px;
     text-align: center;
     color: #EB3268;
@@ -264,7 +264,6 @@ hr {
 .masterTitle{
     margin-top: 20px;
     font-size: 18px;
-    font-weight: 600;
     text-transform: uppercase;
 }
 
