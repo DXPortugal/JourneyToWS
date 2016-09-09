@@ -96,6 +96,14 @@ hr {
     padding-bottom: 10px;
 }
 
+.pageTitleSmall{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
 .programTitle{
     font-size: 32px;
     text-align: center;
@@ -148,6 +156,78 @@ hr {
     padding-top: 5px;
     padding-bottom: 10px;
     font-size: 15px;
+}
+
+.masterDateBlue{
+    background-color: #e2e2e2;
+    border-right: 15px solid #00B3B6;
+    border-radius: 4px;
+    border-left: 20px solid #00B3B6;
+    border-radius: 4px;
+}
+.masterDayBlue{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 16px; 
+    margin-bottom: 0px;
+    padding-top: 18px;
+    text-align: center;
+    color: #00B3B6;
+}
+.masterMonthBlue{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+    color: #00B3B6;
+}
+
+.masterDatePink{
+    background-color: #e2e2e2;
+    border-right: 15px solid #EB3268;
+    border-radius: 4px;
+    border-left: 20px solid #EB3268;
+    border-radius: 4px;
+}
+.masterDayPink{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 16px; 
+    margin-bottom: 0px;
+    padding-top: 18px;
+    text-align: center;
+    color: #EB3268;
+}
+.masterMonthPink{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+    color: #EB3268;
+}
+
+.masterSpeaker{
+    font-weight: 300;
+}
+
+.masterTitle{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.masterTime{
+    font-size: 16px;
+    font-weight: 350;
+    padding-bottom: 10px;
+}
+
+.masterBox{
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .text-body{
@@ -298,17 +378,6 @@ body span.glyphicon.glyphicon-chevron-down {
 
 #channel9{
     text-decoration: none;
-}
-
-.sessionName {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.sessionDate {
-    font-size: 16px;
-    font-weight: 500;
 }
 
 /*COLORING*/
