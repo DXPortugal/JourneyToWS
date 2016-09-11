@@ -198,7 +198,7 @@ hr {
 
 .boxTitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 7px;
 }
@@ -215,7 +215,7 @@ hr {
 .boxButton {
     padding-top: 5px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .masterDateBlue {
