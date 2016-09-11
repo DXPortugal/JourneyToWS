@@ -1,12 +1,7 @@
 @font-face {
     font-family: 'Segoe UI';
     src: url('/fonts/all/normal/segoeui.eot');
-    src: local("Segoe UI"),
-         local("Segoe"),
-         local("Segoe WP"),
-         url('/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/all/normal/segoeui.woff') format('woff'),
-         url('/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url('/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'), url('/fonts/all/normal/segoeui.woff') format('woff'), url('/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,11 +9,7 @@
 @font-face {
     font-family: 'Segoe UI Semibold';
     src: url('/fonts/seguisb.eot');
-    src: local("Segoe Semibold"),
-         local("Segoe WP Semibold"), 
-         url('/fonts/seguisb.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/seguisb.woff') format('woff'),
-         url('/fonts/seguisb.svg#SegoeUISemibold') format('svg');
+    src: local("Segoe Semibold"), local("Segoe WP Semibold"), url('/fonts/seguisb.eot?#iefix') format('embedded-opentype'), url('/fonts/seguisb.woff') format('woff'), url('/fonts/seguisb.svg#SegoeUISemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,11 +17,8 @@
 @font-face {
     font-family: 'Segoe UI Bold';
     src: url('/fonts/segoeuib.eot');
-    src: local("Segoe Bold"),
-         local("Segoe WP Bold"),
-         url('/fonts/segoeuib.eot?#iefix') format('eot'), /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
-         url('/fonts/segoeuib.woff') format('woff'),
-         url('/fonts/segoeuib.svg#SegoeUIBold') format('svg');
+    src: local("Segoe Bold"), local("Segoe WP Bold"), url('/fonts/segoeuib.eot?#iefix') format('eot'), /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
+    url('/fonts/segoeuib.woff') format('woff'), url('/fonts/segoeuib.svg#SegoeUIBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,69 +26,70 @@
 @font-face {
     font-family: 'Segoe UI Light';
     src: url('/fonts/segoeuil.eot');
-    src: local("Segoe UI Light"),
-         local("Segoe WP Light"),
-         url('/fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/segoeuil.woff') format('woff'),
-         url('/fonts/segoeuil.svg#SegoeUILight') format('svg');
+    src: local("Segoe UI Light"), local("Segoe WP Light"), url('/fonts/segoeuil.eot?#iefix') format('embedded-opentype'), url('/fonts/segoeuil.woff') format('woff'), url('/fonts/segoeuil.svg#SegoeUILight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-body{
+body {
+    font-size: 17px;
     font-family: "Segoe UI", "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fefdee;
     height: 100%;
-    margin-top:50px;
+    margin-top: 50px;
 }
+
 
 /*navbar*/
-.navbarLink{
+
+.navbarLink {
     text-transform: uppercase;
     font-size: 14px;
-    color:white !important;
+    color: white !important;
 }
 
-.navbarColor{
+.navbarColor {
     background-color: #333333;
 }
 
-.navbarLink:hover{
+.navbarLink:hover {
     text-decoration: none !important;
     color: #00b5b8 !important;
 }
 
-#ativarportugal{
+#ativarportugal {
     margin-top: -4px;
 }
 
-.journeybanner{
+.journeybanner {
     width: 100%;
     padding: 0 !important;
 }
 
-#timeline{
+#timeline {
     width: 80%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     display: block;
     padding: 0 !important;
 }
 
-.partner{
+.partner {
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     display: block;
     padding: 0 !important;
 }
+
 
 /*footer*/
-#footer{
+
+#footer {
     border-radius: 0px;
     margin-bottom: 0px;
 }
 
-.footerTitle{
+.footerTitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
     text-align: left;
@@ -108,82 +97,82 @@ body{
     padding-bottom: 10px;
 }
 
-#copy{
-    color:white !important;
+#copy {
+    color: white !important;
 }
 
-#microsoft{
+#microsoft {
     margin-bottom: -25px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-top: 15px;
 }
 
+
 /*Main page body*/
+
 hr {
     background-color: #333;
     border-color: #333;
 }
 
-.title{
+.title {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 37px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.bigTitle{
+.bigTitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 36px;
+    font-size: 45px;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
-.pageTitle{
+.pageTitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 59px;
+    font-size: 64px;
     text-align: center;
     padding-top: 45px;
     padding-bottom: 10px;
 }
 
-.pageTitleSmall{
+.pageTitleSmall {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     padding-top: 45px;
     padding-bottom: 10px;
 }
 
-.programTitle{
-    font-size: 32px;
+.programTitle {
+    font-size: 37px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.subtitle{
+.subtitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26px;
+    font-size: 35px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 8px;
 }
 
-
-.challengesubtitle{
+.challengesubtitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26px;
+    font-size: 31px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 8px;
     line-height: 33px;
 }
 
-
-.challengesubsubtitle{
+.challengesubsubtitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -191,52 +180,63 @@ hr {
     line-height: 25px;
 }
 
-.subsubtitle{
+.subsubtitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
     margin-top: -15px;
     padding-bottom: 8px;
 }
 
-.faqtitle{
+.faqtitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 37px;
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.boxTitle{
+.boxTitle {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
-    margin-bottom: 7px; 
+    margin-bottom: 7px;
 }
 
-.boxButton{
+.boxText {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 30px;
+}
+
+.boxButton {
     padding-top: 5px;
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.masterDateBlue{
+.masterDateBlue {
     background-color: #e2e2e2;
     border-right: 15px solid #00A0A4;
     border-radius: 4px;
     border-left: 20px solid #00A0A4;
     border-radius: 4px;
 }
-.masterDayBlue{
+
+.masterDayBlue {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    margin-top: 16px; 
+    margin-top: 16px;
     margin-bottom: 0px;
     padding-top: 18px;
     text-align: center;
     color: #00A0A4;
 }
-.masterMonthBlue{
+
+.masterMonthBlue {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     padding-bottom: 50px;
@@ -245,23 +245,25 @@ hr {
     color: #00A0A4;
 }
 
-.masterDatePink{
+.masterDatePink {
     background-color: #e2e2e2;
     border-right: 15px solid #BA425E;
     border-radius: 4px;
     border-left: 20px solid #BA425E;
     border-radius: 4px;
 }
-.masterDayPink{
+
+.masterDayPink {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    margin-top: 16px; 
+    margin-top: 16px;
     margin-bottom: 0px;
     padding-top: 18px;
     text-align: center;
     color: #BA425E;
 }
-.masterMonthPink{
+
+.masterMonthPink {
     font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     padding-bottom: 50px;
@@ -270,33 +272,33 @@ hr {
     color: #BA425E;
 }
 
-.masterSpeaker{
+.masterSpeaker {
     font-weight: 300;
 }
 
-.masterTitle{
+.masterTitle {
     margin-top: 20px;
     font-size: 18px;
     text-transform: uppercase;
 }
 
-.masterTime{
+.masterTime {
     font-size: 16px;
     font-weight: 350;
     padding-bottom: 10px;
 }
 
-.masterBox{
+.masterBox {
     margin-bottom: 20px;
     border-radius: 4px;
 }
 
-.text-body{
+.text-body {
     margin: 0% 15% 0% 15%
 }
 
-.chevron{
-    font-size: 3em !important; 
+.chevron {
+    font-size: 3em !important;
     text-align: center;
     width: 100%;
     padding-top: 35px;
@@ -308,49 +310,56 @@ body span.glyphicon.glyphicon-chevron-down {
     text-align: center;
 }
 
-#holder{
+#holder {
     min-height: 100%;
-    position:relative;
+    position: relative;
 }
 
-.align-left{
+.align-left {
     text-align: left;
 }
 
-.align-right{
+.align-right {
     text-align: right;
 }
 
-.align-center{
+.align-center {
     text-align: center;
 }
 
-.faqimg{
+.faqimg {
     width: 100%;
 }
 
-.noBorder{
+.noBorder {
     border-width: 0;
 }
 
-.left-button-pad{
+.left-button-pad {
     margin-right: 5px;
 }
 
-.right-button-pad{
+.right-button-pad {
     margin-left: 5px;
 }
 
-.btn:focus,.btn:active:focus,.btn.active:focus,
-.btn.focus,.btn:active.focus,.btn.active.focus {
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
     outline: none;
 }
 
+
 /* CLOCK */
 
+
 /* Portrait tablets and small desktops */
+
 @media (min-width: 768px) {
-    #clockdiv{
+    #clockdiv {
         width: 100%;
         color: #fff;
         display: inline-block;
@@ -358,22 +367,22 @@ body span.glyphicon.glyphicon-chevron-down {
         text-align: center;
         font-size: 60px;
     }
-    
-    .smalltext{
+    .smalltext {
         color: #333;
         padding-top: 5px;
         font-size: 20px;
         font-weight: 400;
     }
-
-    #copy{
+    #copy {
         padding-top: 0px;
     }
 }
 
+
 /* Landscape phones and portrait tablets */
+
 @media (max-width: 767px) {
-#clockdiv{
+    #clockdiv {
         width: 100%;
         color: #fff;
         display: inline-block;
@@ -381,22 +390,22 @@ body span.glyphicon.glyphicon-chevron-down {
         text-align: center;
         font-size: 50px;
     }
-    
-    .smalltext{
+    .smalltext {
         color: #333;
         padding-top: 5px;
         font-size: 18px;
         font-weight: 350;
     }
-
-    #copy{
+    #copy {
         padding-top: 10px;
     }
 }
 
+
 /* Portrait phones and smaller */
+
 @media (max-width: 480px) {
-    #clockdiv{
+    #clockdiv {
         width: 100%;
         color: #fff;
         display: inline-block;
@@ -404,8 +413,7 @@ body span.glyphicon.glyphicon-chevron-down {
         text-align: center;
         font-size: 30px;
     }
-    
-    .smalltext{
+    .smalltext {
         color: #333;
         padding-top: 5px;
         font-size: 15px;
@@ -413,18 +421,18 @@ body span.glyphicon.glyphicon-chevron-down {
     }
 }
 
-#clockdiv > div{
+#clockdiv>div {
     padding: 10px;
     width: 20%;
     border-radius: 3px;
     display: inline-block;
 }
 
-.days{
+.days {
     background: #BA425E !important;
 }
 
-#clockdiv div > span{
+#clockdiv div>span {
     width: 100%;
     border-radius: 3px;
     background: #c7c7c7;
@@ -433,93 +441,106 @@ body span.glyphicon.glyphicon-chevron-down {
     padding-bottom: 10%;
 }
 
-.days, .hours, .minutes{
+.days,
+.hours,
+.minutes {
     font-weight: 400;
 }
 
-#channel9{
+#channel9 {
     text-decoration: none;
 }
 
+
 /*COLORING*/
 
-.blueTitle{
+.blueTitle {
     color: #00A0A4;
 }
 
-.pinkTitle{
+.pinkTitle {
     color: #BA425E;
 }
 
-.purpleTitle{
-    color: #764464;    
+.purpleTitle {
+    color: #764464;
 }
 
-.bluebg{
-    background-color: #00A0A4; 
+.bluebg {
+    background-color: #00A0A4;
 }
 
-.pinkbg{
-    background-color: #BA425E; 
+.pinkbg {
+    background-color: #BA425E;
 }
 
-.purplebg{
-    background-color: #764464;     
+.purplebg {
+    background-color: #764464;
 }
 
-.offwhitebg{
+.offwhitebg {
     background-color: #d9d9d9;
 }
 
-.greybg{
+.greybg {
     background-color: #e2e2e2;
 }
 
-.whiteText{
+.whiteText {
     color: #fefdee;
 }
 
-.paddingbottom{
-    padding-bottom: 40px; 
+.paddingbottom {
+    padding-bottom: 40px;
 }
 
-.paddingtop{
-    padding-top: 40px; 
+.paddingtop {
+    padding-top: 40px;
 }
 
-.landingBox{
+.buttonpaddingtop {
+    padding-top: 15px;
+}
+
+.buttonpaddingbottom {
+    padding-bottom: 15px;
+}
+
+.landingBox {
     border-radius: 4px;
-    }
-#chabanner{
+}
+
+#chabanner {
     margin-left: auto;
     margin-right: auto;
-    display: block; 
+    display: block;
     padding-bottom: 20px;
 }
 
 hr {
     border-color: #b7b7b7;
-    border-right : 0;
+    border-right: 0;
     border-left: 0;
 }
 
 .fake-link {
     cursor: pointer;
 }
+
 .fake-link:hover {
     color: #337ab7;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.footerLink{
+.footerLink {
     font-size: 14px;
     text-decoration: none !important;
-    color:white !important;
+    color: white !important;
     cursor: pointer;
 }
 
-.footerLink:hover{
+.footerLink:hover {
     text-decoration: none !important;
     color: #00b5b8 !important;
 }
