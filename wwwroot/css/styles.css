@@ -39,6 +39,7 @@ body {
     margin-top: 50px;
 }
 
+
 /*navbar*/
 
 .navbarLink {
@@ -223,6 +224,7 @@ hr {
     border-radius: 4px;
     border-left: 20px solid #00A0A4;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .masterDayBlue {
@@ -238,10 +240,21 @@ hr {
 .masterMonthBlue {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-top: 0px;
     text-align: center;
     color: #00A0A4;
+}
+
+.addCalendarBlue {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #00A0A4;
+    text-align: center;
+}
+
+.goToMasterclass {
+    background-color: rgb(254, 180, 10);
 }
 
 .masterDatePink {
@@ -250,6 +263,7 @@ hr {
     border-radius: 4px;
     border-left: 20px solid #BA425E;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .masterDayPink {
@@ -265,10 +279,17 @@ hr {
 .masterMonthPink {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-top: 0px;
     text-align: center;
     color: #BA425E;
+}
+
+.addCalendarPink {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #BA425E;
+    text-align: center;
 }
 
 .masterSpeaker {
