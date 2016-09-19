@@ -313,6 +313,11 @@ hr {
     margin: 0% 15% 0% 15%
 }
 
+.poweredBy {
+    width: 150px;
+    height: 150px;
+}
+
 .chevron {
     font-size: 3em !important;
     text-align: center;
