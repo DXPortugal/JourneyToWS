@@ -313,9 +313,14 @@ hr {
     margin: 0% 15% 0% 15%
 }
 
-.poweredBy {
-    width: 150px;
-    height: 150px;
+.poweredByBig {
+    width: 175px;
+    height: 175px;
+}
+
+.poweredBySmall {
+    width: 125px;
+    height: 125px;
 }
 
 .chevron {
