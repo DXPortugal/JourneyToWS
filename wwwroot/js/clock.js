@@ -41,14 +41,14 @@ var event = document.getElementById("event");
 var eventSub = document.getElementById("eventSub")
 var clockLink = document.getElementById("clockLink")
 
-if (new Date() > Date.parse("September 28 2016 23:59:59")) {
+if (new Date() > Date.parse("October 2 2016 23:59:59")) {
     event.innerHTML = "Countdown to Web Summit";
     var deadline = new Date(Date.parse('November 8 2016 09:55:00 GMT'));
     eventSub.innerHTML = "Get ready with our online Masterclasses!";
     clockLink.href = "masterclasses.html"
 } else {
     event.innerHTML = "Registrations for the Startup Challenge end in:";
-    var deadline = new Date(Date.parse('September 28 2016 23:59:59'));
+    var deadline = new Date(Date.parse('October 2 2016 23:59:59'));
 }
 
 initializeClock('clockdiv', deadline);
