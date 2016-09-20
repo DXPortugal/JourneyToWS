@@ -378,6 +378,10 @@ body span.glyphicon.glyphicon-chevron-down {
     margin-left: 5px;
 }
 
+.ok {
+    width: 200px;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
