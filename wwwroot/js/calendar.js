@@ -1,7 +1,7 @@
 var b23s = ics();
 b23s.addEvent('Mobile Growth what works and what doesn\'t work', 'http://aka.ms/jwsmobilegrowth', 'Watch the event on Channel9!', '9/23/2016 3:00 pm', '9/23/2016 4:00 pm');
 var b25s = ics();
-b25s.addEvent('How to brand and communicate', 'http://aka.ms/jwshowtobrand', 'Watch the event on Channel9!', '9/25/2016 3:00 pm', '9/25/2016 4:00 pm');
+b25s.addEvent('How to brand and communicate', 'http://aka.ms/jwshowtobrand', 'Watch the event on Channel9!', '9/27/2016 3:00 pm', '9/27/2016 4:00 pm');
 var b26s = ics();
 b26s.addEvent('Investment 101', 'http://aka.ms/jwsinvestment101', 'Watch the event on Channel9!', '9/26/2016 4:00 pm', '9/26/2016 5:00 pm');
 var t28s = ics();

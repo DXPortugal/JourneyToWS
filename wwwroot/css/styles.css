@@ -411,7 +411,8 @@ body span.glyphicon.glyphicon-chevron-down {
         font-weight: 400;
     }
     #copy {
-        padding-top: 0px;
+        padding-top: 4px;
+        font-size: 14px;
     }
 }
 
@@ -434,7 +435,8 @@ body span.glyphicon.glyphicon-chevron-down {
         font-weight: 350;
     }
     #copy {
-        padding-top: 10px;
+        padding-top: 15px;
+        font-size: 14px;
     }
 }
 
