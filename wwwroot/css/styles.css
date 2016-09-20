@@ -205,7 +205,7 @@ hr {
 
 .boxText {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 8px;
@@ -314,12 +314,10 @@ hr {
 }
 
 .poweredByBig {
-    width: 175px;
     height: 175px;
 }
 
 .poweredBySmall {
-    width: 125px;
     height: 125px;
 }
 
