@@ -11,7 +11,7 @@ t29s.addEvent('Building your first bot with Microsoft Bot Framework and LUIS', '
 var t4o = ics();
 t4o.addEvent('Unleashing the power of IoT', 'http://aka.ms/jwspowerofiot', 'Watch the event on Channel9!', '10/4/2016 3:00 pm', '10/4/2016 4:00 pm');
 var t6o = ics();
-t6o.addEvent('Using containers on Azure', 'http://aka.ms/asd', 'Watch the event on Channel9!', '10/6/2016 3:00 pm', '10/6/2016 4:00 pm');
+t6o.addEvent('Using containers on Azure', 'http://aka.ms/jwsazurecontainers', 'Watch the event on Channel9!', '10/6/2016 3:00 pm', '10/6/2016 4:00 pm');
 var t10o = ics();
 t10o.addEvent('How to build creative and usable websites', 'http://aka.ms/jwscreativewebsites', 'Watch the event on Channel9!', '10/10/2016 3:00 pm', '10/10/2016 4:00 pm');
 var t13o = ics();
