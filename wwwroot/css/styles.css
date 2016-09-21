@@ -583,3 +583,8 @@ hr {
     text-decoration: none !important;
     color: #00b5b8 !important;
 }
+
+#hashtag {
+    text-align: center;
+    font-size: 30px;
+}
