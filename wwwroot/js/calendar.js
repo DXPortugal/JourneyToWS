@@ -11,9 +11,15 @@ $("#b26s").click(function() {
 });
 
 var b27s = ics();
-b27s.addEvent('How to brand and communicate', 'http://aka.ms/jwshowtobrand', 'Watch the event on Channel9!', '9/27/2016 3:00 pm', '9/27/2016 4:00 pm');
+b27s.addEvent('Brand and Consumer Psychology', 'http://aka.ms/jwshowtobrand', 'Watch the event on Channel9!', '9/27/2016 3:00 pm', '9/27/2016 4:00 pm');
 $("#b27s").click(function() {
     b27s.download();
+});
+
+var b3o = ics();
+b3o.addEvent('Inside Sales and Pipeline Management', 'http://aka.ms/jwsinsidesales', 'Watch the event on Channel9!', '10/3/2016 3:00 pm', '10/3/2016 4:00 pm');
+$("#b3o").click(function() {
+    b3o.download();
 });
 
 var b14o = ics();
@@ -52,10 +58,10 @@ $("#t4o").click(function() {
     t4o.download();
 });
 
-var t6o = ics();
-t6o.addEvent('Using containers on Azure', 'http://aka.ms/jwscontainersazure', 'Watch the event on Channel9!', '10/6/2016 3:00 pm', '10/6/2016 4:00 pm');
-$("#t6o").click(function() {
-    t6o.download();
+var t2n = ics();
+t2n.addEvent('Using containers on Azure', 'http://aka.ms/jwscontainersazure', 'Watch the event on Channel9!', '11/2/2016 3:00 pm', '11/2/2016 4:00 pm');
+$("#t2n").click(function() {
+    t2n.download();
 });
 
 var t10o = ics();
